@@ -50,9 +50,15 @@
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   outline: none;
+  margin: 4px;
 }
 @media screen and (max-width: 940px) {
   .form input[type="text"] {
     max-width: 270px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .form {
+    width: unset;
   }
 }
